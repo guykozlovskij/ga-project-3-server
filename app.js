@@ -4,6 +4,7 @@
 
 import express from 'express'
 import router from './views/router.js'
+import cors from 'cors'
 
 // ? My own middleware
 import logger from './middleware/logger.js'
@@ -13,6 +14,7 @@ const app = express()
 
 
 app.use(express.json())
+app.use(cors())
 // ? Using my own logging middleware.
 app.use(logger)
 // ! Router is a special piece of middleware.

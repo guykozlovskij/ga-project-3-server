@@ -1,2 +1,7 @@
 .vscode/settings.json
 .vscode
+/node_modules
+.client.http
+.steve.client.http
+.eslintrc
+/config

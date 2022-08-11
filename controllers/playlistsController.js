@@ -13,7 +13,6 @@ async function playlistIndex(req, res, next) {
     next(err)
   }
 }
-
 // ! Get a Users Playlists
 async function getUsersPlaylist(req, res, next) {
   try {

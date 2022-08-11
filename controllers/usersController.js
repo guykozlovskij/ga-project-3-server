@@ -4,6 +4,7 @@ import { secret } from '../config/environment.js'
 import jwt from 'jsonwebtoken'
 
 
+
 //! Register a user
 async function register(req, res, next) {
   try {
